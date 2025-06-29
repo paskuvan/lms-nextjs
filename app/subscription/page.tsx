@@ -1,7 +1,7 @@
-const Subscripcion = () => {
+const Subscription = () => {
   return (
-    <div>Subscripcion</div>
+    <div>Subscription</div>
   )
 }
 
-export default Subscripcion
+export default Subscription
