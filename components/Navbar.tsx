@@ -1,3 +1,6 @@
+import Image from "next/image";
+import NavItems from "@/components/NavItems";
+
 const Navbar = () => {
   return (
     <nav className="navbar">
@@ -9,11 +12,10 @@ const Navbar = () => {
         width={46} 
         height={44} 
         />
+        
     </div>
     <div className="flex items-center gap-8">
-        <p>Home</p>
-        <p>Companions</p>
-        <p>My Journey</p>
+        <NavItems />
         <p>Sign In</p>
     </div>
     </link>    
