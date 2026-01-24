@@ -6,6 +6,9 @@ import { recentSessions } from '@/constants'
 import { getAllCompanions, getRecentSessions } from '@/lib/actions/companion.actions'
 import { getSubjectColor } from '@/lib/utils'
 
+//check error in vercel
+export const dynamic = 'force-dynamic'
+
 
 
 const Page = async () => {
