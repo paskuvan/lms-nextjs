@@ -5,9 +5,9 @@ import { PricingTable } from "@clerk/clerk-react"
 
 const Subscription = () => {
   return (
-    <div>
+    <main>
       <PricingTable />
-    </div>
+    </main>
   )
 }
 
